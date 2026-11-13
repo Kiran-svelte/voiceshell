@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# VoiceShell runtime state (audit log, trash, tmp) — may contain user data
+.voiceshell/
+workspace/
+
+# Generated benchmark outputs and proof runs (large; regenerate with the scripts)
+bench/out/
+proof/
+*_run*.log
+bench_*.log
+scenarios_*.log
+voice_*.log
+complex_*.log
+inject_run.log
+proof_run.log
+
+# Model weights — large binaries; the Piper lessac voice has a restrictive
+# (non-commercial research) licence and must NOT be redistributed. Download locally.
+models/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp

@@ -1,0 +1,8 @@
+{
+  "ruleset_sha256": "55d4889c0aa9c32684a1b7ca021b0c3a488c3d9792b69492a78b1c6c0a9b2ba8",
+  "files": [
+    "rules.py",
+    "parser.py",
+    "gate.py"
+  ]
+}
