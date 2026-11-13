@@ -33,3 +33,4 @@ Thumbs.db
 # stray root logs / archives
 *_final.log
 docs.zip
+final_tests.log
